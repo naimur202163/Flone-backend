@@ -1,5 +1,5 @@
 const app = require("./app");
-
+const connectDatabase=require('./config/database')
 
 
 // handling uncaught exception
@@ -8,10 +8,8 @@ process.on("uncaughtException",(err)=>{
     console.log(`Shuting down the server due to `)
 })
 
-
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
+// Database Connection
+connectDatabase()
 
 
 const server = app.listen(5000, () => {

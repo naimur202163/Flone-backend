@@ -16,8 +16,6 @@ const userSchema=mongoose.Schema({
             true,"Please Enter the Number"
         ]
     },
-
-
 });
 
 module.exports=mongoose.model("Users",userSchema)

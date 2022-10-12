@@ -5,3 +5,6 @@ exports.getAllUsers=async(req,res)=>{
 
 
 
+exports.createUsers=(req,res)=>{
+        
+}

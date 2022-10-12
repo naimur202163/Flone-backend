@@ -11,4 +11,6 @@ const connectDatabase = () => {
         });
 };
 
-module.exports = connectDatabase;   
+
+
+module.exports = connectDatabase;

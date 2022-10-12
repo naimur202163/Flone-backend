@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/naimur202163/Flone-backend#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "dot-env": "^0.0.1",
     "express": "^4.18.2",
     "mongoose": "^6.6.5",

@@ -1,8 +1,4 @@
 exports.getAllProducts=async(req,res)=>{
     
-    res.status(200).json(
-        {
-            message:"sever is working "
-        }
-    )
+    res.send("Hello World")
 }

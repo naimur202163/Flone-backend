@@ -4,7 +4,4 @@ const router = express.Router();
 
 
 router.route('/product').get(getAllProducts)
-
-
-
 module.exports=router

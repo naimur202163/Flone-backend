@@ -14,7 +14,7 @@ exports.getAllProducts = async (req, res) => {
 
 
 
-
+    
 
 exports.createProduct = catchAsyncErrors(async (req, res, next) => {
   const product = await Product.create(req.body);
@@ -25,5 +25,5 @@ exports.createProduct = catchAsyncErrors(async (req, res, next) => {
 });
 
 exports.getSingleProduct=catchAsyncErrors((req,res,next)=>{
-    const 
+    
 })
